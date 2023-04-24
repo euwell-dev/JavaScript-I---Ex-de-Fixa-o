@@ -5,5 +5,5 @@ const validade = prompt("Digite a validade do produto:");
 
 document.write("<h3>"+ "Produto:"+ " "+nomedoproduto+"</h3>");
 document.write("<p>"+ "Preço R$:"+ " "+preco+"</p>");
-document.write("<p>"+ "Estoque:"+ " "+nomedoproduto+"</p>");
-document.write("<p>"+ "Validade:"+ " "+nomedoproduto+"</p>");
+document.write("<p>"+ "Estoque:"+ " "+estoque+"</p>");
+document.write("<p>"+ "Validade:"+ " "+validade+"</p>");
