@@ -1,6 +1,6 @@
 
 const peso = parseFloat(prompt("Digite o seu peso:"));
-const altura = parseFloat(prompt("Digite a sua altura:"));
+const altura = parseFloat(prompt("Digite a sua altura: no formato X.XX"));
 const imc = peso / (altura*altura);
 
 
@@ -15,6 +15,6 @@ if (imc < 18.5) {
   condicao = "Obeso";
 }
 
-document.write("<p>"+ "Seu peso é"+" "+peso.toFixed(2)+"</p>");
-document.write("<p>"+ "Sua altura é"+" "+altura.toFixed(2)+"</p>");
+document.write("<p>"+ "Seu peso é"+" "+peso.toFixed(0)+" "+"Kg"+"</p>");
+document.write("<p>"+ "Sua altura é"+" "+altura.toFixed(2)+" "+"m"+"</p>");
 document.write("<p>"+ "Sua condição é"+" "+"<u>"+condicao+"<u>"+"."+ "</p>");
